@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<nav>
+	<nav class="menu">
 		<h2>Company</h2>
 		<div class="hr"></div>
 		<ul>
@@ -23,62 +23,79 @@
 			<li><a href="#">Support</a></li>
 		</ul>
 	</nav>
-<main>
-	<h2>Dashboard</h2>
-	<section class="one">
-		<div class="icon_one">
-			<div class="color green">
-			<img src="img/data_white.svg" alt="alt">
-			</div>
-			<h6><span>Used space</span><br>
-			49/50GB</h6>
-			<div class="hr"></div>
-			<div class="alert">
-				<img src="img/alert.png" alt="alt">
-				<p>Get more space</p>
-			</div>
-		</div>	
-		<div class="icon_one">
-			<div class="color yellow">
-			<img src="img/shop_white.svg" alt="alt">
-			</div>
-			<h6><span>Revenue</span><br>
-			$ 34,245</h6>
-			<div class="hr"></div>
-			<div class="alert">
-				<img src="img/calendar.png" alt="alt">
-				<p>Last 24 Hours</p>
-			</div>
-		</div>	
-		<div class="icon_one">
-			<div class="color blue">
-			<img src="img/tag_white.svg" alt="alt">
-			</div>
-			<h6><span>Fixed Issues</span><br>
-			75</h6>
-			<div class="hr"></div>
-			<div class="alert">
-				<img src="img/down.png" alt="alt">
-				<p>Tracked from Github</p>
-			</div>
-		</div>		
-		<div class="icon_one">
-			<div class="color pink">
-			<img src="img/paperplane_white.svg" alt="alt">
-			</div>
-			<h6><span>Followers</span><br>
-			49/50GB</h6>
-			<div class="hr"></div>
-			<div class="alert">
-				<img src="img/time.png" alt="alt">
-				<p>Just updated</p>
-			</div>
-		</div>				
-	</section>
-</main>
+	<nav class="burger">
+		<form action="#" method="post">
+			<input type="checkbox" id="nav"><label for="nav">
+				<img src="img/menu.png">
+				<div class="button_on">
+					<h2>Company</h2>
+					<div class="hr"></div>
+					<ul>
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="#">User Profile</a></li>
+						<li><a href="#">Maps</a></li>
+						<li><a href="#">Notifications</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+			</label></form>
+		</nav>
+		<main>
+			<h2>Dashboard</h2>
+			<section class="one">
+				<div class="icon_one">
+					<div class="color green">
+						<img src="img/data_white.svg" alt="alt">
+					</div>
+					<h6><span>Used space</span><br>
+					49/50GB</h6>
+					<div class="hr"></div>
+					<div class="alert">
+						<img src="img/alert.png" alt="alt">
+						<p>Get more space</p>
+					</div>
+				</div>	
+				<div class="icon_one">
+					<div class="color yellow">
+						<img src="img/shop_white.svg" alt="alt">
+					</div>
+					<h6><span>Revenue</span><br>
+					$ 34,245</h6>
+					<div class="hr"></div>
+					<div class="alert">
+						<img src="img/calendar.png" alt="alt">
+						<p>Last 24 Hours</p>
+					</div>
+				</div>	
+				<div class="icon_one">
+					<div class="color blue">
+						<img src="img/tag_white.svg" alt="alt">
+					</div>
+					<h6><span>Fixed Issues</span><br>
+					75</h6>
+					<div class="hr"></div>
+					<div class="alert">
+						<img src="img/down.png" alt="alt">
+						<p>Tracked from Github</p>
+					</div>
+				</div>		
+				<div class="icon_one">
+					<div class="color pink">
+						<img src="img/paperplane_white.svg" alt="alt">
+					</div>
+					<h6><span>Followers</span><br>
+					49/50GB</h6>
+					<div class="hr"></div>
+					<div class="alert">
+						<img src="img/time.png" alt="alt">
+						<p>Just updated</p>
+					</div>
+				</div>				
+			</section>
+		</main>
 
-	<script src="libs/jquery/jquery-3.4.1.min.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/common.js"></script>
-</body>
-</html>
+		<script src="libs/jquery/jquery-3.4.1.min.js"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/common.js"></script>
+	</body>
+	</html>
