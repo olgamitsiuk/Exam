@@ -1,31 +1,39 @@
 @media (min-width: 800px) and (max-width: 1000px) {
 .menu {
 	width: 23%;}
-main {
+main, footer {
 	width: 77%;
 	margin-left: 23%;}
 .icon_one {
   width: 43%;}
+.three{
+	flex-wrap: wrap;}
+.block_three {
+  width: 95%;}
 }
 @media (min-width: 650px) and (max-width: 799px){
 .menu{
 	display: none;}
 .burger{
 	display: block;}
-main{
+main, footer{
 	width: 100%;
 	margin-left: 0;}
 main h2{
 	padding-left: 60px;}
 .icon_one {
   width: 43%;}
+.three{
+	flex-wrap: wrap;}
+.block_three {
+  width: 95%;}
 }
 @media (min-width: 500px) and (max-width: 649px){
 .menu{
 	display: none;}
 .burger{
 	display: block;}
-main{
+main, footer{
 	width: 100%;
 	margin-left: 0;}
 main h2{
@@ -35,6 +43,10 @@ main h2{
 .two{
 	flex-wrap: wrap;}
 .block_two {
+  width: 95%;}
+.three{
+	flex-wrap: wrap;}
+.block_three {
   width: 95%;}	
 }
 @media (max-width: 499px){
@@ -42,7 +54,7 @@ main h2{
 	display: none;}
 .burger{
 	display: block;}
-main{
+main, footer{
 	width: 100%;
 	margin-left: 0;}
 main h2{
@@ -52,5 +64,9 @@ main h2{
 .two{
 	flex-wrap: wrap;}	
 .block_two {
+  width: 90%;}	
+.three{
+	flex-wrap: wrap;}
+.block_three {
   width: 90%;}		
 }
