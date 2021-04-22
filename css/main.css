@@ -131,16 +131,18 @@ main, footer {
   margin-left: 18%;
   background-color: #eaeaea; }
 
-.one {
+.one, .two, .three {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   padding: 10px 20px; }
+
+.one {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .icon_one {
   width: 20%;
@@ -208,15 +210,6 @@ main, footer {
     font-size: 12px;
     color: #8a8a8a; }
 
-.two {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 10px 20px; }
-
 .block_two {
   width: 28%;
   display: -webkit-box;
@@ -255,14 +248,7 @@ main, footer {
     width: 90%; }
 
 .three {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 10px 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 .block_three {
   width: 45%;
@@ -330,6 +316,8 @@ main, footer {
       width: 20px; }
   .form li:nth-child(13), .form li:nth-child(14), .form li:nth-child(15), .form li:nth-child(16) {
     border-bottom: none; }
+  .form label {
+    cursor: pointer; }
 
 .employee {
   padding: 15px;
@@ -376,12 +364,16 @@ footer {
     justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
-    footer ul li a {
-      display: block;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      text-transform: uppercase;
-      color: #000;
-      text-decoration: none;
-      padding: 5px; }
+    align-items: center;
+    padding: 10px 0; }
+    footer ul li {
+      padding: 10px; }
+      footer ul li a {
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none; }
+      footer ul li a:hover {
+        text-decoration: underline; }
