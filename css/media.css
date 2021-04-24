@@ -13,6 +13,12 @@ main, footer {
 .block_three {
 	width: 95%;
 	margin-top: 30px;}
+.four{
+	flex-wrap: wrap;}
+.four_one, .four_two{
+	width: 95%;}
+.four_one{
+	order: 1;}
 }
 @media (min-width: 650px) and (max-width: 799px){
 .menu{
@@ -33,6 +39,12 @@ main h2{
 .block_three {
 	width: 95%;
 	margin-top: 30px;}
+.four{
+	flex-wrap: wrap;}
+.four_one, .four_two{
+	width: 95%;}
+.four_one{
+	order: 1;}
 }
 @media (min-width: 500px) and (max-width: 649px){
 .menu{
@@ -45,7 +57,7 @@ main, footer{
 main h2{
 	padding-left: 60px;}
 .icon_one {
-  width: 41%;}
+ 	width: 41%;}
 .two{
 	flex-wrap: wrap;
 	padding-bottom: 0;
@@ -60,6 +72,12 @@ main h2{
 .block_three {
 	width: 95%;
 	margin-top: 30px;}	
+.four{
+	flex-wrap: wrap;}
+.four_one, .four_two{
+	width: 95%;}
+.four_one{
+	order: 1;}
 }
 @media (max-width: 499px){
 .menu{
@@ -78,8 +96,8 @@ main h2{
 	padding-bottom: 0;
 	padding-top: 0;}	
 .block_two {
-  width: 90%;
-margin-top: 30px;}	
+  	width: 90%;
+	margin-top: 30px;}	
 .three{
 	flex-wrap: wrap;
 	padding-bottom: 0;
@@ -89,4 +107,10 @@ margin-top: 30px;}
 	margin-top: 30px;}	
 footer ul li{
 	padding: 5px;}	
+.four{
+	flex-wrap: wrap;}
+.four_one, .four_two{
+	width: 90%;}
+.four_one{
+	order: 1;}
 }
