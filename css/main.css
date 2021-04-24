@@ -442,6 +442,8 @@ footer {
         border: none;
         border-bottom: 1px solid #ccc;
         background-color: #f6f6f6; }
+      .profile_form ul li textarea {
+        resize: none; }
     .profile_form ul li:first-child {
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;
